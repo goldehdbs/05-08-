@@ -28,9 +28,8 @@ import matplotlib.pyplot as plt
 
 
 
-df_a = pd.read_json(r'./DATA/heart_failure_a.json')
-
-df_b = pd.read_json(r'./DATA/heart_failure_b.json')
+df_a = pd.read_json('heart_failure_a.json')
+df_b = pd.read_json('heart_failure_b.json')
 
 
 st.title(" 심부전증 데이터 분석 대시보드")
